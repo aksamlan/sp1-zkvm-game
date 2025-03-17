@@ -24,8 +24,8 @@ This example:
 git clone https://github.com/succinctlabs/sp1.git
 cd sp1
 cargo build --release --package sp1-cli
-sudo ln -s $(pwd)/target/release/sp1 /usr/local/bin/sp1
-sp1 --help
+./sp1/target/release/cargo-prove --help
+cd
 ```
 
 2. Clone this repository:
@@ -48,7 +48,7 @@ cargo build --release
 Then, convert the compiled binary to the RISC-V format that SP1 expects:
 
 ```shellscript
-sp1 build --release
+./sp1/target/release/cargo-prove build --release
 cd ..
 ```
 
