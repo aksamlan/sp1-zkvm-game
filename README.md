@@ -24,7 +24,7 @@ This example:
 git clone https://github.com/succinctlabs/sp1.git
 cd sp1
 cargo build --release --package sp1-cli
-ln -s $(pwd)/target/release/sp1 /usr/local/bin/sp1
+sudo ln -s $(pwd)/target/release/sp1 /usr/local/bin/sp1
 sp1 --help
 ```
 
