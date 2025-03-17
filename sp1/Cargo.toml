@@ -1,0 +1,15 @@
+[package]
+name = "sp1-zkvm-example-program"
+version = "0.1.0"
+edition = "2021"
+authors = ["Your Name <your.email@example.com>"]
+description = "Program to run inside SP1 zkVM"
+license = "MIT"
+
+[dependencies]
+sp1-zkvm = { git = "https://github.com/succinctlabs/sp1.git" }
+
+[profile.release]
+opt-level = 3
+lto = "fat"
+codegen-units = 1
