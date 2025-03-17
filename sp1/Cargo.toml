@@ -1,15 +1,17 @@
 [package]
-name = "sp1-zkvm-example-program"
+name = "sp1-zkvm-game"
 version = "0.1.0"
 edition = "2021"
-authors = ["Your Name <your.email@example.com>"]
-description = "Program to run inside SP1 zkVM"
+authors = ["Huseyin <aksamlan.01@gmail.com>"]
+description = "Example zkVM program running inside SP1 zkVM for testing purposes"
 license = "MIT"
 
 [dependencies]
-sp1-zkvm = { git = "https://github.com/succinctlabs/sp1.git" }
+sp1-zkvm = { git = "https://github.com/succinctlabs/sp1.git", rev = "a662556" }
 
 [profile.release]
 opt-level = 3
 lto = "fat"
 codegen-units = 1
+panic = "abort"
+strip = true
