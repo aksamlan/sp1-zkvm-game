@@ -1,0 +1,20 @@
+[package]
+name = "sp1-zkvm-example"
+version = "0.1.0"
+edition = "2021"
+authors = ["Your Name <your.email@example.com>"]
+description = "A simple example of using SP1 zkVM"
+readme = "README.md"
+license = "MIT"
+
+[dependencies]
+sp1-sdk = "0.1.0"
+
+[workspace]
+members = ["sp1"]
+
+[profile.dev]
+opt-level = 3
+
+[profile.release]
+opt-level = 3
