@@ -27,8 +27,8 @@ cargo install sp1
 
 
 ```shellscript
-git clone https://github.com/yourusername/sp1-zkvm-example.git
-cd sp1-zkvm-example
+git clone https://github.com/aksamlan/sp1-zkvm-game.git
+cd sp1-zkvm-game
 ```
 
 ## Building the zkVM Program
@@ -47,7 +47,7 @@ sp1 build --release
 cd ..
 ```
 
-This will generate the `sp1_zkvm_example.riscv` file in the project root.
+This will generate the `sp1_zkvm_game.riscv` file in the project root.
 
 ## Running the Example
 
