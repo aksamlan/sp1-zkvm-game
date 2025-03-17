@@ -1,3 +1,4 @@
+![image](https://github.com/user-attachments/assets/93b45918-a4a4-4a75-bd90-d9f5b05f32d1)
 
 # SP1 zkVM Game
 
