@@ -1,0 +1,18 @@
+# Rust build artifacts
+/target/
+/sp1/target/
+**/*.rs.bk
+Cargo.lock
+
+# SP1 artifacts
+*.riscv
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS specific
+.DS_Store
+Thumbs.db
