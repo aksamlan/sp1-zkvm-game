@@ -1,7 +1,5 @@
-### `README.md`
 
-
-# SP1 zkVM Example
+# SP1 zkVM Game
 
 This is a simple example demonstrating how to use SP1 (Succinct Proofs of Execution) to create and verify zero-knowledge proofs for a basic computation.
 
