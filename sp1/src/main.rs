@@ -9,5 +9,5 @@ fn main() {
 
     sp1_zkvm::io::write(1, &result.to_le_bytes());
 
-    sp1_zkvm::println!("The sum of {} and {} is {}", a, b, result);
+    sp1_zkvm::io::write_stdout(format!("The sum of {} and {} is {}", a, b, result));
 }
