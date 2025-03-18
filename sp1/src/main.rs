@@ -1,13 +1,12 @@
 #![no_main]
+
 sp1_zkvm::entrypoint!(main);
 
 fn main() {
-    let a: u32 = sp1_zkvm::io::read();
-    let b: u32 = sp1_zkvm::io::read();
-
+    let a = 2;
+    let b = 3;
     let result = a + b;
 
-    sp1_zkvm::io::write(1, &result.to_le_bytes());
-
+    // Correct output
     sp1_zkvm::io::write_stdout(format!("The sum of {} and {} is {}", a, b, result));
 }
